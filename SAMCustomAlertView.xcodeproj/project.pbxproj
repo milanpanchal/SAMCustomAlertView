@@ -14,13 +14,17 @@
 		E01F9F161B4D34AD008B82F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F151B4D34AD008B82F4 /* Images.xcassets */; };
 		E01F9F191B4D34AD008B82F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F171B4D34AD008B82F4 /* LaunchScreen.xib */; };
 		E01F9F251B4D34AD008B82F4 /* SAMCustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01F9F241B4D34AD008B82F4 /* SAMCustomAlertViewTests.m */; };
-		E01F9F341B4D3732008B82F4 /* SAMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01F9F331B4D3732008B82F4 /* SAMAlertView.m */; };
 		E01F9F491B4D6633008B82F4 /* add_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F431B4D6633008B82F4 /* add_icon@2x.png */; };
 		E01F9F4A1B4D6633008B82F4 /* call_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F441B4D6633008B82F4 /* call_icon@2x.png */; };
-		E01F9F4B1B4D6633008B82F4 /* cancel_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F451B4D6633008B82F4 /* cancel_icon@2x.png */; };
+		E01F9F4B1B4D6633008B82F4 /* cross_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F451B4D6633008B82F4 /* cross_icon@2x.png */; };
 		E01F9F4C1B4D6633008B82F4 /* delete_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F461B4D6633008B82F4 /* delete_icon@2x.png */; };
 		E01F9F4D1B4D6633008B82F4 /* edit_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F471B4D6633008B82F4 /* edit_icon@2x.png */; };
 		E01F9F4E1B4D6633008B82F4 /* tickmark_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F481B4D6633008B82F4 /* tickmark_icon@2x.png */; };
+		E0E3B17B1B4E886800BDE45F /* notify_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B1791B4E886800BDE45F /* notify_icon@2x.png */; };
+		E0E3B17C1B4E886800BDE45F /* notify_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B17A1B4E886800BDE45F /* notify_icon@3x.png */; };
+		E0E3B17F1B4E898D00BDE45F /* save_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B17D1B4E898D00BDE45F /* save_icon@2x.png */; };
+		E0E3B1801B4E898D00BDE45F /* save_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B17E1B4E898D00BDE45F /* save_icon@3x.png */; };
+		E0E3B1831B4E89FA00BDE45F /* SAMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3B1821B4E89FA00BDE45F /* SAMAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +51,18 @@
 		E01F9F1E1B4D34AD008B82F4 /* SAMCustomAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMCustomAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01F9F231B4D34AD008B82F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01F9F241B4D34AD008B82F4 /* SAMCustomAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMCustomAlertViewTests.m; sourceTree = "<group>"; };
-		E01F9F321B4D3732008B82F4 /* SAMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMAlertView.h; sourceTree = "<group>"; };
-		E01F9F331B4D3732008B82F4 /* SAMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMAlertView.m; sourceTree = "<group>"; };
 		E01F9F431B4D6633008B82F4 /* add_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_icon@2x.png"; sourceTree = "<group>"; };
 		E01F9F441B4D6633008B82F4 /* call_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_icon@2x.png"; sourceTree = "<group>"; };
-		E01F9F451B4D6633008B82F4 /* cancel_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel_icon@2x.png"; sourceTree = "<group>"; };
+		E01F9F451B4D6633008B82F4 /* cross_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_icon@2x.png"; sourceTree = "<group>"; };
 		E01F9F461B4D6633008B82F4 /* delete_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_icon@2x.png"; sourceTree = "<group>"; };
 		E01F9F471B4D6633008B82F4 /* edit_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_icon@2x.png"; sourceTree = "<group>"; };
 		E01F9F481B4D6633008B82F4 /* tickmark_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tickmark_icon@2x.png"; sourceTree = "<group>"; };
+		E0E3B1791B4E886800BDE45F /* notify_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_icon@2x.png"; sourceTree = "<group>"; };
+		E0E3B17A1B4E886800BDE45F /* notify_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_icon@3x.png"; sourceTree = "<group>"; };
+		E0E3B17D1B4E898D00BDE45F /* save_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_icon@2x.png"; sourceTree = "<group>"; };
+		E0E3B17E1B4E898D00BDE45F /* save_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_icon@3x.png"; sourceTree = "<group>"; };
+		E0E3B1811B4E89FA00BDE45F /* SAMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAMAlertView.h; path = Source/SAMAlertView.h; sourceTree = "<group>"; };
+		E0E3B1821B4E89FA00BDE45F /* SAMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAMAlertView.m; path = Source/SAMAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +146,9 @@
 		E01F9F311B4D3509008B82F4 /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
+				E0E3B1811B4E89FA00BDE45F /* SAMAlertView.h */,
+				E0E3B1821B4E89FA00BDE45F /* SAMAlertView.m */,
 				E01F9F421B4D6633008B82F4 /* Resources */,
-				E01F9F321B4D3732008B82F4 /* SAMAlertView.h */,
-				E01F9F331B4D3732008B82F4 /* SAMAlertView.m */,
 			);
 			name = AlertView;
 			sourceTree = "<group>";
@@ -150,10 +158,14 @@
 			children = (
 				E01F9F431B4D6633008B82F4 /* add_icon@2x.png */,
 				E01F9F441B4D6633008B82F4 /* call_icon@2x.png */,
-				E01F9F451B4D6633008B82F4 /* cancel_icon@2x.png */,
+				E01F9F451B4D6633008B82F4 /* cross_icon@2x.png */,
 				E01F9F461B4D6633008B82F4 /* delete_icon@2x.png */,
 				E01F9F471B4D6633008B82F4 /* edit_icon@2x.png */,
+				E0E3B17D1B4E898D00BDE45F /* save_icon@2x.png */,
+				E0E3B17E1B4E898D00BDE45F /* save_icon@3x.png */,
 				E01F9F481B4D6633008B82F4 /* tickmark_icon@2x.png */,
+				E0E3B1791B4E886800BDE45F /* notify_icon@2x.png */,
+				E0E3B17A1B4E886800BDE45F /* notify_icon@3x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -242,9 +254,13 @@
 				E01F9F141B4D34AD008B82F4 /* Main.storyboard in Resources */,
 				E01F9F4C1B4D6633008B82F4 /* delete_icon@2x.png in Resources */,
 				E01F9F4D1B4D6633008B82F4 /* edit_icon@2x.png in Resources */,
+				E0E3B1801B4E898D00BDE45F /* save_icon@3x.png in Resources */,
 				E01F9F491B4D6633008B82F4 /* add_icon@2x.png in Resources */,
 				E01F9F4E1B4D6633008B82F4 /* tickmark_icon@2x.png in Resources */,
-				E01F9F4B1B4D6633008B82F4 /* cancel_icon@2x.png in Resources */,
+				E0E3B17B1B4E886800BDE45F /* notify_icon@2x.png in Resources */,
+				E0E3B17C1B4E886800BDE45F /* notify_icon@3x.png in Resources */,
+				E0E3B17F1B4E898D00BDE45F /* save_icon@2x.png in Resources */,
+				E01F9F4B1B4D6633008B82F4 /* cross_icon@2x.png in Resources */,
 				E01F9F191B4D34AD008B82F4 /* LaunchScreen.xib in Resources */,
 				E01F9F161B4D34AD008B82F4 /* Images.xcassets in Resources */,
 			);
@@ -265,7 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01F9F111B4D34AD008B82F4 /* ViewController.m in Sources */,
-				E01F9F341B4D3732008B82F4 /* SAMAlertView.m in Sources */,
+				E0E3B1831B4E89FA00BDE45F /* SAMAlertView.m in Sources */,
 				E01F9F0E1B4D34AD008B82F4 /* AppDelegate.m in Sources */,
 				E01F9F0B1B4D34AD008B82F4 /* main.m in Sources */,
 			);
@@ -464,6 +480,7 @@
 				E01F9F2A1B4D34AD008B82F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01F9F2B1B4D34AD008B82F4 /* Build configuration list for PBXNativeTarget "SAMCustomAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +489,7 @@
 				E01F9F2D1B4D34AD008B82F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

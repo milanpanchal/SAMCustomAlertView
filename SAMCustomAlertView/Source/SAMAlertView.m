@@ -19,7 +19,7 @@
 #define BUTTON_HEIGHT                   40.0f
 
 
-const static CGFloat kSAMAlertViewDefaultButtonSpacerHeight = 1;
+const static CGFloat kSAMAlertViewDefaultButtonSpacerHeight = 0;
 const static CGFloat kSAMAlertViewMotionEffectExtent        = 10.0;
 
 @interface SAMAlertView ()
@@ -54,14 +54,14 @@ CGFloat buttonSpacerHeight = 0;
             self.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
         }
         
-        delegate            = self;
-        useMotionEffects    = false;
-        _buttonTitles        = @[@"Close"];
-        _buttonColors        = @[COLOR_DEFAULT_BUTTON_BACKGROUND];
-        _buttonTitleColors   = @[COLOR_DEFAULT_BUTTON_TITLE];
-        self.autoCloseAlert = YES;
+        delegate                = self;
+        useMotionEffects        = false;
+        _buttonTitles           = @[@"Close"];
+        _buttonColors           = @[COLOR_DEFAULT_BUTTON_BACKGROUND];
+        _buttonTitleColors      = @[COLOR_DEFAULT_BUTTON_TITLE];
+        self.autoCloseAlert     = YES;
         //        _buttonImages = @[[UIImage imageNamed:@"close"]];
-        
+        self.customButtonAlignment = CustomButtonAlignmentHorizontal;
     }
     return self;
 }
@@ -241,13 +241,20 @@ CGFloat buttonSpacerHeight = 0;
     }
     
     CGFloat dialogWidth = _containerView.frame.size.width;
-    CGFloat dialogHeight /*= _containerView.frame.size.height + (buttonHeight + buttonSpacerHeight) * ([_buttonTitles count])*/;
+    CGFloat dialogHeight ;
     
-    
-    if (_buttonTitles.count == 2) {
-        dialogHeight = _containerView.frame.size.height + (buttonHeight + buttonSpacerHeight) * ([_buttonTitles count]-1);
-    }else {
-        dialogHeight = _containerView.frame.size.height + (buttonHeight + buttonSpacerHeight) * [_buttonTitles count];
+    switch (self.customButtonAlignment) {
+
+        case CustomButtonAlignmentHorizontal: {
+            dialogHeight = _containerView.frame.size.height + (buttonHeight + buttonSpacerHeight);
+            break;
+        }
+            
+        case CustomButtonAlignmentVertical: {
+            dialogHeight = _containerView.frame.size.height + (buttonHeight + buttonSpacerHeight) * [_buttonTitles count];
+            break;
+        }
+            
     }
     
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
@@ -297,34 +304,56 @@ CGFloat buttonSpacerHeight = 0;
 
 - (void)addButtonsToView:(UIView *)container {
     
-    for (int i = 0; i < [_buttonTitles count]; i++) {
+    short totalTitles = _buttonTitles.count;
+    
+    for (short i = 0; i < totalTitles; i++) {
         
         UIButton *alertButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        if (_buttonTitles.count == 2) {
-            
-            if (i == 0) {
-                [alertButton setFrame:CGRectMake(0,
-                                                 container.bounds.size.height -  (buttonHeight + buttonSpacerHeight),
-                                                 _containerView.bounds.size.width/2,
-                                                 buttonHeight)];
+        switch (self.customButtonAlignment) {
+            case CustomButtonAlignmentHorizontal: {
                 
-            } else {
-                [alertButton setFrame:CGRectMake(_containerView.bounds.size.width/2,
+                [alertButton setFrame:CGRectMake(_containerView.bounds.size.width/totalTitles * i,
                                                  container.bounds.size.height -  (buttonHeight + buttonSpacerHeight),
-                                                 _containerView.bounds.size.width/2,
+                                                 _containerView.bounds.size.width/totalTitles,
                                                  buttonHeight)];
-                
+
+                break;
             }
-            
-        }else {
-            [alertButton setFrame:CGRectMake(0,
-                                             container.bounds.size.height - ([_buttonTitles count] - i) * (buttonHeight + buttonSpacerHeight),
-                                             _containerView.bounds.size.width,
-                                             buttonHeight)];
-            
+            case CustomButtonAlignmentVertical: {
+                
+                [alertButton setFrame:CGRectMake(0,
+                                                 container.bounds.size.height - (totalTitles - i) * (buttonHeight + buttonSpacerHeight),
+                                                 _containerView.bounds.size.width,
+                                                 buttonHeight)];
+
+                break;
+            }
         }
-        
+//        if (_buttonTitles.count == 2) {
+//            
+//            if (i == 0) {
+//                [alertButton setFrame:CGRectMake(0,
+//                                                 container.bounds.size.height -  (buttonHeight + buttonSpacerHeight),
+//                                                 _containerView.bounds.size.width/2,
+//                                                 buttonHeight)];
+//                
+//            } else {
+//                [alertButton setFrame:CGRectMake(_containerView.bounds.size.width/2,
+//                                                 container.bounds.size.height -  (buttonHeight + buttonSpacerHeight),
+//                                                 _containerView.bounds.size.width/2,
+//                                                 buttonHeight)];
+//                
+//            }
+//            
+//        }else {
+//            [alertButton setFrame:CGRectMake(0,
+//                                             container.bounds.size.height - ([_buttonTitles count] - i) * (buttonHeight + buttonSpacerHeight),
+//                                             _containerView.bounds.size.width,
+//                                             buttonHeight)];
+//            
+//        }
+//        
         
         // Set Button background colors
         UIColor *buttonBackgroundColor = COLOR_DEFAULT_BUTTON_BACKGROUND;

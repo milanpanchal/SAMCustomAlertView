@@ -8,16 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #define COLOR_RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
 #define IMAGE_ADD_ICON      [UIImage imageNamed:@"add_icon"]
 #define IMAGE_EDIT_ICON     [UIImage imageNamed:@"edit_icon"]
 #define IMAGE_DELETE_ICON   [UIImage imageNamed:@"delete_icon"]
-#define IMAGE_CANCEL_ICON   [UIImage imageNamed:@"cancel_icon"]
+#define IMAGE_CROSS_ICON    [UIImage imageNamed:@"cross_icon"]
 #define IMAGE_CALL_ICON     [UIImage imageNamed:@"call_icon"]
 #define IMAGE_TICK_MARK_ICON [UIImage imageNamed:@"tickmark_icon"]
+#define IMAGE_NOTIFY_ICON   [UIImage imageNamed:@"notify_icon"]
+#define IMAGE_SAVE_ICON     [UIImage imageNamed:@"save_icon"]
 
-typedef NS_ENUM(NSInteger, kCustomButtonAlignment) {
-    kCustomButtonAlignmentHorizontal,
-    kCustomButtonAlignmentVertical,
+typedef NS_ENUM(short, CustomButtonAlignment) {
+    CustomButtonAlignmentHorizontal,
+    CustomButtonAlignmentVertical,
 };
 
 @protocol SAMAlertViewDelegate
@@ -36,6 +39,7 @@ typedef NS_ENUM(NSInteger, kCustomButtonAlignment) {
 @property (nonatomic, retain) NSArray *buttonImages;
 @property (nonatomic, assign) BOOL useMotionEffects;
 @property (nonatomic, assign, getter=willAutoCloseAlert) BOOL autoCloseAlert;
+@property (nonatomic, assign) CustomButtonAlignment customButtonAlignment ;
 
 - (id)init;
 - (id)initWithParentView: (UIView *)parentView;

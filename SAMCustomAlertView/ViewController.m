@@ -82,11 +82,11 @@
 - (void)showAlert {
     
     SAMAlertView *alertView = [SAMAlertView alertWithTitle:@"Custom Alert Title" message:@"Your custom message will appear here!"];
-    [alertView setButtonTitles:@[@"CANCEL",@"ADD"]];
-    [alertView setButtonColors:@[COLOR_RGBA(232, 234, 234, 1), COLOR_RGBA(65, 150, 241, 1)]];
-    [alertView setButtonTitleColors:@[COLOR_RGBA(145, 145, 145, 1), COLOR_RGBA(255, 255, 255, 1)]];
-    [alertView setButtonImages:@[IMAGE_CANCEL_ICON,IMAGE_ADD_ICON]];
-
+    [alertView setButtonTitles:@[@"CANCEL",@"ADD",@"DELETE"]];
+    [alertView setButtonColors:@[COLOR_RGBA(232, 234, 234, 1), COLOR_RGBA(65, 150, 241, 1),COLOR_RGBA(60, 15, 248, 1)]];
+    [alertView setButtonTitleColors:@[COLOR_RGBA(145, 145, 145, 1), COLOR_RGBA(255, 255, 255, 1),COLOR_RGBA(255, 255, 255, 1)]];
+    [alertView setButtonImages:@[IMAGE_CROSS_ICON,IMAGE_ADD_ICON,IMAGE_DELETE_ICON]];
+    [alertView setCustomButtonAlignment:CustomButtonAlignmentVertical];
     [alertView setOnButtonTouchUpInside:^(SAMAlertView *alertView, int buttonIndex) {
         NSLog(@"Block: Button at position %d is clicked on alertView %ld.", buttonIndex, (long)[alertView tag]);
         

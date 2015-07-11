@@ -14,17 +14,17 @@
 		E01F9F161B4D34AD008B82F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F151B4D34AD008B82F4 /* Images.xcassets */; };
 		E01F9F191B4D34AD008B82F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F171B4D34AD008B82F4 /* LaunchScreen.xib */; };
 		E01F9F251B4D34AD008B82F4 /* SAMCustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01F9F241B4D34AD008B82F4 /* SAMCustomAlertViewTests.m */; };
-		E01F9F491B4D6633008B82F4 /* add_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F431B4D6633008B82F4 /* add_icon@2x.png */; };
-		E01F9F4A1B4D6633008B82F4 /* call_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F441B4D6633008B82F4 /* call_icon@2x.png */; };
-		E01F9F4B1B4D6633008B82F4 /* cross_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F451B4D6633008B82F4 /* cross_icon@2x.png */; };
-		E01F9F4C1B4D6633008B82F4 /* delete_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F461B4D6633008B82F4 /* delete_icon@2x.png */; };
-		E01F9F4D1B4D6633008B82F4 /* edit_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F471B4D6633008B82F4 /* edit_icon@2x.png */; };
-		E01F9F4E1B4D6633008B82F4 /* tickmark_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01F9F481B4D6633008B82F4 /* tickmark_icon@2x.png */; };
-		E0E3B17B1B4E886800BDE45F /* notify_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B1791B4E886800BDE45F /* notify_icon@2x.png */; };
-		E0E3B17C1B4E886800BDE45F /* notify_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B17A1B4E886800BDE45F /* notify_icon@3x.png */; };
-		E0E3B17F1B4E898D00BDE45F /* save_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B17D1B4E898D00BDE45F /* save_icon@2x.png */; };
-		E0E3B1801B4E898D00BDE45F /* save_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B17E1B4E898D00BDE45F /* save_icon@3x.png */; };
-		E0E3B1831B4E89FA00BDE45F /* SAMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3B1821B4E89FA00BDE45F /* SAMAlertView.m */; };
+		E02306821B51D3EF0096124D /* add_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E02306751B51D3EF0096124D /* add_icon@2x.png */; };
+		E02306831B51D3EF0096124D /* call_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E02306761B51D3EF0096124D /* call_icon@2x.png */; };
+		E02306841B51D3EF0096124D /* cross_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E02306771B51D3EF0096124D /* cross_icon@2x.png */; };
+		E02306851B51D3EF0096124D /* delete_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E02306781B51D3EF0096124D /* delete_icon@2x.png */; };
+		E02306861B51D3EF0096124D /* edit_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E02306791B51D3EF0096124D /* edit_icon@2x.png */; };
+		E02306871B51D3EF0096124D /* notify_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E023067A1B51D3EF0096124D /* notify_icon@2x.png */; };
+		E02306881B51D3EF0096124D /* notify_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E023067B1B51D3EF0096124D /* notify_icon@3x.png */; };
+		E02306891B51D3EF0096124D /* save_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E023067C1B51D3EF0096124D /* save_icon@2x.png */; };
+		E023068A1B51D3EF0096124D /* save_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E023067D1B51D3EF0096124D /* save_icon@3x.png */; };
+		E023068B1B51D3EF0096124D /* tickmark_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E023067E1B51D3EF0096124D /* tickmark_icon@2x.png */; };
+		E023068C1B51D3EF0096124D /* SAMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E02306811B51D3EF0096124D /* SAMAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,18 +51,18 @@
 		E01F9F1E1B4D34AD008B82F4 /* SAMCustomAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMCustomAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01F9F231B4D34AD008B82F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01F9F241B4D34AD008B82F4 /* SAMCustomAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMCustomAlertViewTests.m; sourceTree = "<group>"; };
-		E01F9F431B4D6633008B82F4 /* add_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_icon@2x.png"; sourceTree = "<group>"; };
-		E01F9F441B4D6633008B82F4 /* call_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_icon@2x.png"; sourceTree = "<group>"; };
-		E01F9F451B4D6633008B82F4 /* cross_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_icon@2x.png"; sourceTree = "<group>"; };
-		E01F9F461B4D6633008B82F4 /* delete_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_icon@2x.png"; sourceTree = "<group>"; };
-		E01F9F471B4D6633008B82F4 /* edit_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_icon@2x.png"; sourceTree = "<group>"; };
-		E01F9F481B4D6633008B82F4 /* tickmark_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tickmark_icon@2x.png"; sourceTree = "<group>"; };
-		E0E3B1791B4E886800BDE45F /* notify_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_icon@2x.png"; sourceTree = "<group>"; };
-		E0E3B17A1B4E886800BDE45F /* notify_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_icon@3x.png"; sourceTree = "<group>"; };
-		E0E3B17D1B4E898D00BDE45F /* save_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_icon@2x.png"; sourceTree = "<group>"; };
-		E0E3B17E1B4E898D00BDE45F /* save_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_icon@3x.png"; sourceTree = "<group>"; };
-		E0E3B1811B4E89FA00BDE45F /* SAMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAMAlertView.h; path = Source/SAMAlertView.h; sourceTree = "<group>"; };
-		E0E3B1821B4E89FA00BDE45F /* SAMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAMAlertView.m; path = Source/SAMAlertView.m; sourceTree = "<group>"; };
+		E02306751B51D3EF0096124D /* add_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_icon@2x.png"; sourceTree = "<group>"; };
+		E02306761B51D3EF0096124D /* call_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_icon@2x.png"; sourceTree = "<group>"; };
+		E02306771B51D3EF0096124D /* cross_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_icon@2x.png"; sourceTree = "<group>"; };
+		E02306781B51D3EF0096124D /* delete_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_icon@2x.png"; sourceTree = "<group>"; };
+		E02306791B51D3EF0096124D /* edit_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_icon@2x.png"; sourceTree = "<group>"; };
+		E023067A1B51D3EF0096124D /* notify_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_icon@2x.png"; sourceTree = "<group>"; };
+		E023067B1B51D3EF0096124D /* notify_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notify_icon@3x.png"; sourceTree = "<group>"; };
+		E023067C1B51D3EF0096124D /* save_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_icon@2x.png"; sourceTree = "<group>"; };
+		E023067D1B51D3EF0096124D /* save_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_icon@3x.png"; sourceTree = "<group>"; };
+		E023067E1B51D3EF0096124D /* tickmark_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tickmark_icon@2x.png"; sourceTree = "<group>"; };
+		E02306801B51D3EF0096124D /* SAMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMAlertView.h; sourceTree = "<group>"; };
+		E02306811B51D3EF0096124D /* SAMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,8 @@
 		E01F9EFC1B4D34AD008B82F4 = {
 			isa = PBXGroup;
 			children = (
+				E02306741B51D3EF0096124D /* Resources */,
+				E023067F1B51D3EF0096124D /* Source */,
 				E01F9F071B4D34AD008B82F4 /* SAMCustomAlertView */,
 				E01F9F211B4D34AD008B82F4 /* SAMCustomAlertViewTests */,
 				E01F9F061B4D34AD008B82F4 /* Products */,
@@ -111,7 +113,6 @@
 				E01F9F121B4D34AD008B82F4 /* Main.storyboard */,
 				E01F9F151B4D34AD008B82F4 /* Images.xcassets */,
 				E01F9F171B4D34AD008B82F4 /* LaunchScreen.xib */,
-				E01F9F311B4D3509008B82F4 /* AlertView */,
 				E01F9F081B4D34AD008B82F4 /* Supporting Files */,
 			);
 			path = SAMCustomAlertView;
@@ -143,31 +144,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E01F9F311B4D3509008B82F4 /* AlertView */ = {
+		E02306741B51D3EF0096124D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E0E3B1811B4E89FA00BDE45F /* SAMAlertView.h */,
-				E0E3B1821B4E89FA00BDE45F /* SAMAlertView.m */,
-				E01F9F421B4D6633008B82F4 /* Resources */,
-			);
-			name = AlertView;
-			sourceTree = "<group>";
-		};
-		E01F9F421B4D6633008B82F4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E01F9F431B4D6633008B82F4 /* add_icon@2x.png */,
-				E01F9F441B4D6633008B82F4 /* call_icon@2x.png */,
-				E01F9F451B4D6633008B82F4 /* cross_icon@2x.png */,
-				E01F9F461B4D6633008B82F4 /* delete_icon@2x.png */,
-				E01F9F471B4D6633008B82F4 /* edit_icon@2x.png */,
-				E0E3B17D1B4E898D00BDE45F /* save_icon@2x.png */,
-				E0E3B17E1B4E898D00BDE45F /* save_icon@3x.png */,
-				E01F9F481B4D6633008B82F4 /* tickmark_icon@2x.png */,
-				E0E3B1791B4E886800BDE45F /* notify_icon@2x.png */,
-				E0E3B17A1B4E886800BDE45F /* notify_icon@3x.png */,
+				E02306751B51D3EF0096124D /* add_icon@2x.png */,
+				E02306761B51D3EF0096124D /* call_icon@2x.png */,
+				E02306771B51D3EF0096124D /* cross_icon@2x.png */,
+				E02306781B51D3EF0096124D /* delete_icon@2x.png */,
+				E02306791B51D3EF0096124D /* edit_icon@2x.png */,
+				E023067A1B51D3EF0096124D /* notify_icon@2x.png */,
+				E023067B1B51D3EF0096124D /* notify_icon@3x.png */,
+				E023067C1B51D3EF0096124D /* save_icon@2x.png */,
+				E023067D1B51D3EF0096124D /* save_icon@3x.png */,
+				E023067E1B51D3EF0096124D /* tickmark_icon@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E023067F1B51D3EF0096124D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E02306801B51D3EF0096124D /* SAMAlertView.h */,
+				E02306811B51D3EF0096124D /* SAMAlertView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,19 +250,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01F9F4A1B4D6633008B82F4 /* call_icon@2x.png in Resources */,
+				E02306831B51D3EF0096124D /* call_icon@2x.png in Resources */,
+				E02306881B51D3EF0096124D /* notify_icon@3x.png in Resources */,
 				E01F9F141B4D34AD008B82F4 /* Main.storyboard in Resources */,
-				E01F9F4C1B4D6633008B82F4 /* delete_icon@2x.png in Resources */,
-				E01F9F4D1B4D6633008B82F4 /* edit_icon@2x.png in Resources */,
-				E0E3B1801B4E898D00BDE45F /* save_icon@3x.png in Resources */,
-				E01F9F491B4D6633008B82F4 /* add_icon@2x.png in Resources */,
-				E01F9F4E1B4D6633008B82F4 /* tickmark_icon@2x.png in Resources */,
-				E0E3B17B1B4E886800BDE45F /* notify_icon@2x.png in Resources */,
-				E0E3B17C1B4E886800BDE45F /* notify_icon@3x.png in Resources */,
-				E0E3B17F1B4E898D00BDE45F /* save_icon@2x.png in Resources */,
-				E01F9F4B1B4D6633008B82F4 /* cross_icon@2x.png in Resources */,
+				E02306851B51D3EF0096124D /* delete_icon@2x.png in Resources */,
+				E02306861B51D3EF0096124D /* edit_icon@2x.png in Resources */,
+				E023068A1B51D3EF0096124D /* save_icon@3x.png in Resources */,
+				E023068B1B51D3EF0096124D /* tickmark_icon@2x.png in Resources */,
+				E02306841B51D3EF0096124D /* cross_icon@2x.png in Resources */,
+				E02306821B51D3EF0096124D /* add_icon@2x.png in Resources */,
 				E01F9F191B4D34AD008B82F4 /* LaunchScreen.xib in Resources */,
+				E02306891B51D3EF0096124D /* save_icon@2x.png in Resources */,
 				E01F9F161B4D34AD008B82F4 /* Images.xcassets in Resources */,
+				E02306871B51D3EF0096124D /* notify_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01F9F111B4D34AD008B82F4 /* ViewController.m in Sources */,
-				E0E3B1831B4E89FA00BDE45F /* SAMAlertView.m in Sources */,
+				E023068C1B51D3EF0096124D /* SAMAlertView.m in Sources */,
 				E01F9F0E1B4D34AD008B82F4 /* AppDelegate.m in Sources */,
 				E01F9F0B1B4D34AD008B82F4 /* main.m in Sources */,
 			);

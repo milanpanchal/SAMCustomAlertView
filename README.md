@@ -35,11 +35,11 @@ Pretty simple. Just download or clone in Desktop. Drag and drop Source and Resou
 
 **Horizontal Buttons**
 
-![image](https://raw.github.com/milanpanchal/iOS-Category/master/Screenshots/horizontal_alert.png)
+![image](https://raw.github.com/milanpanchal/SAMCustomAlertView/master/Screenshots/horizontal_alert.png)
 
 **Vertical Buttons**
 
-![image](https://raw.github.com/milanpanchal/iOS-Category/master/Screenshots/vertical_alert.png)
+![image](https://raw.github.com/milanpanchal/SAMCustomAlertView/master/Screenshots/vertical_alert.png)
 
 
 ##Next Step
